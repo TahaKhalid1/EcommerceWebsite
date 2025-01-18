@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="41c93fdcb3cb4a35aa042d5aacf3f8b3" Name="Diagram1">
+        <EntityTypeShape EntityType="eCommerce_WebModel.Admin" Width="1.5" PointX="2.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="eCommerce_WebModel.Category" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="eCommerce_WebModel.Customer" Width="1.5" PointX="5.875" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="eCommerce_WebModel.ProductImage" Width="1.5" PointX="7.5" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="eCommerce_WebModel.Product" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="eCommerce_WebModel.SubCategory" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="eCommerce_WebModel.FK__Products__Catego__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="eCommerce_WebModel.FK__SubCatego__Categ__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="eCommerce_WebModel.FK__ProductIm__Produ__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="eCommerce_WebModel.FK__Products__SubCat__656C112C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
